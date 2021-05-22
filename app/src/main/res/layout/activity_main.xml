@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_Princeton"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/title_Princeton"
+        android:textColor="#090000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/btnUnion"
+        android:layout_width="99dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/imgUnion"
+        android:layout_toRightOf="@+id/imgUnion"
+        android:contentDescription="@string/description_Union"
+        android:text="@string/btnUnion"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#455663"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/title_Union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="170dp"
+        android:text="@string/title_Union"
+        android:textColor="#0C0000"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="68dp" />
+
+    <ImageView
+        android:id="@+id/imgUnion"
+        android:layout_width="265dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="26dp"
+        android:contentDescription="@string/description_Union"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/union_county_college"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/title_Njit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginBottom="-9dp"
+        android:text="@string/title_NJIT"
+        android:textColor="#070000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <ImageView
+        android:id="@+id/imgNjit"
+        android:layout_width="281dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/title_Njit"
+        android:layout_alignLeft="@id/btnNjit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="66dp"
+        android:contentDescription="@string/description_NJIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/njit_school" />
+
+    <Button
+        android:id="@+id/btnNjit"
+        android:layout_width="122dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/btnNJIT"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#455663"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrinceton"
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="75dp"
+        android:text="@string/btnPrinceton"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#455663"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <ImageView
+        android:id="@+id/imgPrinceton"
+        android:layout_width="364dp"
+        android:layout_height="209dp"
+        android:layout_alignLeft="@id/btnPrinceton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-69dp"
+        android:layout_marginLeft="-363dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@id/btnPrinceton"
+        android:contentDescription="@string/description_Princeton"
+        app:srcCompat="@drawable/princeton_school" />
+
+</RelativeLayout>

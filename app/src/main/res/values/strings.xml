@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Your School App</string>
+    <string name="title_Union">Union County College</string>
+    <string name="title_NJIT">New Jersey Institute of Technology</string>
+    <!--<string name="title_Rutgers">Rutgers University- New Brunswick</string>-->
+    <string name="title_Princeton">Princeton University</string>
+    <string name="description_Union"> Union County College Image</string>
+    <string name="description_NJIT">NJIT Image</string>
+    <!-- <string name="description_Rutgers">Rutgers Image</string> -->
+    <string name="description_Princeton">Princeton Image</string>
+    <string name="btnUnion">View Union</string>
+    <string name="btnNJIT">View    NJIT</string>
+    <!--  <string name="btnRutgers">View Rutgers</string> -->
+    <string name="btnPrinceton">View Princeton</string>
+    <string name="txtUnionAddress">Address : 1033 Sprinfield Ave, Cranford, NJ 07016</string>
+    <!--  <string name="txtRutgersAddress">57 US Highway 1</string> -->
+    <string name="txtNjitAddress">Address : 323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102 </string>
+    <string name="txtPrincetonAddress">Address : 330 Alexander St, Princeton, NJ 08544</string>
+    <string name="txtUnion_Phone">Phone : 908-709-7000</string>
+    <string name="txtNjit_Phone">Phone : 973-596-3000</string>
+    <!--   <string name="txtRutgers_Phone"></string> -->
+    <string name="txtPrinceton_Phone">Phone : 609-258-3000</string>
+
+</resources>
